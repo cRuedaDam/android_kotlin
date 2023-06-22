@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO 1: Para simplificar la vista cambiamos el constrein por el FrameLayout-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--TODO 2: Establecemos el widget del recyclerview-->
+    <!--TODO 3: para que el recycler ocupe todo el ancho de pantalla
+    cambiamos el wrap_content por un match_parent, pero no a la altura ya que solo
+    queremos que ocupe lo que necesita-->
+    <!--TODO 4: Por último, establecemos un ID para el recycler-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+</FrameLayout>
